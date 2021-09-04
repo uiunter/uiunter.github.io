@@ -1,0 +1,169 @@
+    
+@media( max-width: 1200px )
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 50px
+    .benefits
+        &_item
+            align-items: flex-start
+    .mobile
+        &_item 
+            width: 300px
+
+@media only screen and ( max-width: 991.2px )
+    .menu
+        &_item
+            padding-right: 8px
+        &_link
+            font-size: 9px
+    .subheader
+        &_logo
+            img
+                width: 100%
+            &_descr
+                font-size: 11px
+        &_phonenumber
+            font-size: 18px
+        &_btn
+            margin-top: 25px
+            height: 40px
+            width: 100%
+
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 28px
+        &_descr
+            font-size: 15px
+    
+    .benefits
+        &_item
+            margin-top: 50px
+
+    .mobile
+        &_item
+            margin-bottom: 35px
+
+@media screen and ( max-width: 767.2px )
+    header
+        position: relative
+        height: 50px
+    nav
+        position: fixed
+        width: 100%
+        z-index: 5
+        background: #212121
+        height: 50px
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 100%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0,.8)
+        transition: 0.6s
+        &_active
+            left: 0
+        &_item
+            padding-right: 0px
+            border: 0
+            margin: 10px 0
+        &_link
+            font-size: 20px
+            line-height: none
+            vertical-align: center
+    
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: rotate(45deg)
+                
+                    
+                    
+
+    .subheader
+        position: absolute
+        top: 50px
+        width: 100%
+        height: 84px
+        background-color: rgba(0,0,0,0.6)
+        &_logo
+            img
+                width: 150%
+            &_descr
+                font-size: 9px
+        &_btn
+            font-size: 10px
+
+    .promo
+        &_header
+            font-size: 42px
+        &_subheader
+            font-size: 32px
+        &_descr
+            fsize: 28px
+
+    .auto
+        &_img
+            width: 100%
+            display: flex
+            justify-self: center
+
+    .footer
+        &_wrapper
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            &_first
+                width: 40px
+                display: flex;
+                justify-content: center;
+        &_social
+            &_item
+                display: flex
+                justify-content: space-evenly
+                width: 23px
+                height: 23px
+                margin-bottom: 4px
+        &_links
+            display: none
+        &_mobile
+            justify-self: center
+            margin-top: 35px
+    
+    
+    
+
+    
+            

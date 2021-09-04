@@ -1,0 +1,28 @@
+.consultation {
+    min-height: 680px;
+    background: url("../img/bg2.jpg") center (center / cover) no-repeat;
+    padding: 92px 0 100px 0;
+    &__subheader {
+        font-size: 36px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__descr {
+        margin-top: 80px;
+        margin-bottom: 36px;
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+    }
+}

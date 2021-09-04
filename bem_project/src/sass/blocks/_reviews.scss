@@ -1,0 +1,63 @@
+.reviews {
+    padding-bottom: 71px;
+    &__clients { margin-top: 71px; padding-left: 231px; }
+    &__client {
+        margin-bottom: 100px;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 169px;
+            height: 169px;
+            left: 0;
+        }
+        &:nth-child(1) {
+            &::before {
+                content: url('../../img/clients/1.png')
+            }
+        }
+        &:nth-child(2) {
+            &::before {
+                content: url('../../img/clients/2.png')
+            }
+        }
+        &:nth-child(3) {
+            margin-bottom: 0;
+            &::before {
+                content: url('../../img/clients/3.png')
+            }
+        }
+        &_name {
+            font-size: 18px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #0d0d0d;
+        }
+        &_achievement {
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #646464;
+        }
+        &_descr {
+            width: 650px;
+            min-height: 129px;
+            margin-top: 19px;
+            font-size: 15px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #0d0d0d;
+        }
+    }
+}

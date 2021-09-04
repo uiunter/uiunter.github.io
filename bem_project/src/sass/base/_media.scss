@@ -1,0 +1,95 @@
+@media only screen and ( max-width: 991.2px ) {
+    .consultation {
+        padding: 92px 0 100px 25px;
+    }
+
+    .title {
+        &_subheader {
+            font-size: 28px;
+        }
+    }
+
+    .carousel {
+        .prev, .next {
+            display: none;
+        }
+    }
+
+    .tns-item {
+        img {
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .reviews {
+        &__clients {
+            margin-left: 40px;
+        }
+        &__client {
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                margin-left: 40px;
+            }
+        }
+    }
+
+    .footer {
+        &__info {
+            width: 370px;
+        }
+        &__addr {
+            font-size: 17px;
+        }
+        &__phone {
+            font-size: 17px;
+        }
+    }
+}
+
+@media only screen and ( max-width: 767.2px ) {
+    .consultation {
+        padding: 92px 0 100px 50px;
+    }
+
+    .title {
+        &_subheader {
+            font-size: 25px;
+            &_left {
+                width: 600px;
+            }
+        }
+    }
+
+    .catalog {
+        &__content {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .reviews {
+        &__clients {
+            padding-left: 190px;
+        }
+        &__client {
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 20%;
+                margin-left: 40px;
+                transform: scale(.8);
+            }
+            &_descr {
+                width: 90%;
+            }
+        }
+    }
+}

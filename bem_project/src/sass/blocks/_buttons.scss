@@ -1,0 +1,36 @@
+.button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: $main-color;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: 0.3s;
+    &:hover {
+        box-shadow: 8px 8px 8px -4px rgba(250, 89, 89, 0.37);
+    }      
+    &_main {
+        width: 300px;
+        height: 50px;
+        margin-top: 68px;
+        font-size: 16px;
+    }
+    &_consultation {
+        width: 300px;
+        height: 55px;
+        font-size: 16px;
+    }
+    &_mini {
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
+    }
+}

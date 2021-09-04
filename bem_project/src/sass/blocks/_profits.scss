@@ -1,0 +1,57 @@
+.profits {
+    background: #f6f6f6;
+    min-height: 470px;
+    padding: 69px 0 78px 0;
+    &__subheader {
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0d0d0d;
+        margin: 0 auto;
+    }
+    &__benefits {
+        margin-top: 65px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        
+        &_descr {
+            width: 232px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 45px;
+            margin-top: 38px;
+            font-size: 14px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #0d0d0d;
+            span {
+                margin-bottom: 38px;
+                font-size: 18px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #0d0d0d;
+            }
+            a {
+                color: #ff0000;
+            }
+        }
+    }
+}
