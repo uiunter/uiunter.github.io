@@ -71,6 +71,10 @@ const slider = tns({
         $('.overlay, #consultation, #thanks, #order').fadeOut();
     });
 
+    $('.overlay').on('click', function() {
+        $('.overlay, #consultation, #thanks, #order').fadeOut();
+    });
+
     $('.button_mini').on('click', function() {
         $('.overlay, #order').fadeIn();
     });
